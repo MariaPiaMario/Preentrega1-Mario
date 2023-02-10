@@ -16,6 +16,26 @@ const eMail = prompt("Ingrese su e-mail");
 while(compraEnProceso){
     articulos = prompt("Ingrese un artículo que desee sumar a su carrito. Los precios son los siguientes: Sandalias $17000, Bolso Grande $20000, Bolso Mediano $15000, Bolso Pequeño $12000, Alfombra Grande $22000, Alfombra Pequeña $10000, Portacelular $8000. Cuando haya finalizado su compra escriba Salir"). toLowerCase();
 
+class Producto{
+    constructor(tipo, precio){
+    this.tipo = tipo;
+    this.precio = precio;
+    }
+}
+
+const productos = [{
+    
+    const producto1 = new Producto("sandalias", 17000),
+    const producto2 = new Producto("Bolso Grande", 20000),
+    const producto3 = new Producto ("Bolso Mediano", 15000),
+    const producto4 = new Producto("Bolso Pequeño", 12000),
+    const producto5 = new Producto("Alfombra Grande", 22000),
+    const producto6 = new Producto("Alfombra Pequeña", 10000),
+    const producto7 = new Producto("Portacelular", 8000)
+    }
+];
+
+
 switch(articulos){
         case "sandalias":
             sumaDeArticulos += sandalias;
